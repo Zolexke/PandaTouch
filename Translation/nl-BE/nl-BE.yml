@@ -1,0 +1,563 @@
+nl-BE: 
+#SETTING PAGE
+  lang_name_t: 'Nederlands'
+
+  min_time_t_1: '1min'
+  min_time_t_2: '2min'
+  min_time_t_3: '3min'
+  min_time_t_5: '5min'
+  min_time_t_10: '10min'
+  min_time_t_15: '15min'
+  min_time_t_60: '60min' 
+  sleep_time_t_always: 'Altijd Aan'
+  
+  setting_gen_t: 'Algemeen'
+  setting_net_t: 'Netwerk'
+  setting_gen_t_dev: 'Apparaat:'
+  setting_gen_t_man: 'Fabrikant:'
+  setting_gen_t_lang: 'Taal:'
+  setting_gen_t_fw: 'Firmware:'
+  setting_gen_t_slp: 'Automatisch slapen:'
+  setting_gen_t_backlight: 'Achtergrondverlichting:'
+  setting_gen_t_reb: 'Herstarten'
+  setting_gen_t_rst: 'Fabrieksinstellingen'
+#SETTING PAGE END
+
+#BUTTONS
+  btn_cancel: 'Annuleren'
+  btn_ok: 'OK'
+  btn_restart: 'Herstarten'
+  btn_refresh: 'Vernieuwen'
+  btn_confirm: 'Bevestigen'
+  btn_next: 'Volgende'
+  btn_back: 'Terug'
+  btn_del: 'Verwijderen'
+  btn_scan: 'Scannen'
+  btn_factory: 'Fabrieksreset'
+  btn_close: 'Sluiten'
+  btn_ignore_all: 'Alles negeren'
+  btn_load: 'Laden' 
+  btn_unload: 'Uitladen' 
+  btn_retry: 'Opnieuw proberen' 
+  btn_abort: 'Afbreken'
+  btn_print: 'Afdrukken'
+  btn_remove: 'Verwijderen'
+  btn_stop: 'Stoppen'
+  btn_pause: 'Pauzeren'
+  btn_resume: 'Hervatten'
+  btn_filament: 'Filament'
+  btn_done: 'Klaar'
+  btn_stop_all: 'Alles stoppen'
+  btn_format: 'Formatteren'
+  btn_disconnect: 'Verbreken'
+  btn_edit: 'Bewerken'
+  btn_yes: 'Ja'
+  btn_no: 'Nee'
+  btn_reset: 'Resetten'
+  btn_add_printer: 'Printer toevoegen'
+  btn_add_group: 'Groep toevoegen'
+  btn_goto_printers: 'Ga naar multi-apparaten pagina'
+  btn_goto_wifi: 'Ga naar Wi-Fi-netwerk'
+  btn_ignore: 'Negeren'
+  btn_goto_login: 'Ga naar de inlogpagina'
+  btn_dry: 'Droog'
+  btn_dry_prepare: 'Voorbereiden'
+  btn_dry_start: 'Start drogen'
+#BUTTONS END
+
+  set_net_wifi_scaned: 'Gescande WiFi'
+  welcome_tip: 'Maak verbinding met het internet door het WiFi-netwerk aan de rechterkant te selecteren en vervolgens het wachtwoord in te voeren. Klik op vernieuwen als het gewenste netwerk niet zichtbaar is. Klik op volgende zodra je verbinding hebt gemaakt met het gewenste netwerk.'
+  tip_scan_qrcode: 'Gebruik je telefoon om de QR-code te scannen en toegang te krijgen tot de online handleiding.'
+  loading: 'Laden...'
+  top_wifi_connect: 'Verbinding maken met WiFi %s'
+  top_wifi_connect_fail: 'Verbinding maken met WiFi mislukt: %s'
+  top_wifi_disconnected: 'Verbinding verbroken met WiFi: %s'
+  top_print_connecting: 'Verbinden met Printer %d: %s'
+  top_print_connected: 'Succesvol verbonden met Printer %d: %s'
+  top_print_connect_fail: 'Verbinding maken met Printer %d mislukt: %s'
+#PRINT
+  panda_touch: 'Panda Touch'
+  printer_model: 'Model:'
+  printer_name: 'Naam:'   
+  scan_print_t_acescd: 'Toegangscode:'
+  scan_print_t_ip: 'Printer IP:'
+  filament_t_color: 'Filament kleur:'
+  filament_t_matrl: 'Filament materiaal:'
+  nozzle_t_diameter: 'Nozzle diameter:'
+  nozzle_t_matrl: 'Nozzle materiaal:'
+  wifi_c_wait_cancel: 'Wachten op annulatie...'
+  print_bed_leveling: 'Bed Uitlijnen'
+  print_flow_calibration: 'Flowcalibratie'
+  print_timelapse: 'Timelapse'
+  prints_in_sync: 'Printers in sync: %d'
+  start_print_confirm: |
+   Voordat je begint met printen, let op het volgende:
+   1. Zorg ervoor dat het bestand is gesliced voor de geselecteerde printer(s).
+   2. Zorg ervoor dat de filamentinstellingen in het geslicede bestand overeenkomen met het filament dat in de AMS-slots is geladen.
+  print_using_ams: 'Gebruik AMS'
+  print_ams: 'Spoelhouder'
+  print_canceled: 'Geannuleerd'
+  print_finished: 'Voltooid'
+  print_reprint: 'Opnieuw printen'
+  bed_preheating: 'Printbed wordt voorverwarmd'
+  nozzle_clean: 'Nozzle tip reinigen'
+  bed_auto_leveing: 'Automatisch bed-levelen'
+  print_preparing: 'Voorbereiden op printen'
+  print_t: 'Printer'
+  print_not_find: 'Geen printers gevonden, controleer je netwerk en scan opnieuw'
+  filament_unknown: 'Het filamenttype is onbekend, maar het is nodig om deze actie uit te voeren. Wil je de informatie van het filament bewerken?'
+  printer_add_repeat: 'Deze printer is al toegevoegd aan de Panda Touch en kan niet opnieuw worden toegevoegd.'
+  printer_has_add: 'Al toegevoegd'
+  printer_busy: |
+
+   
+    Busy Printing
+  nozzle_temperature: 'Nozzle-temperatuur'
+  bambu_info_readonly: 'Informatie over Bambu Filament is opgeslagen in RFID en alleen-lezen.'
+  setting_slot_not_sup: 'Het instellen van slotinformatie tijdens het printen wordt niet ondersteund.'
+  filament_minimum: 'Minimum'
+  filament_maximum: 'Maximum'
+  filament_unknown_type: 'Onbekend'
+#PRINT  
+#TIPS  
+  tip_input_optional: '(Optioneel)'
+  tip_input_name: '(Verplicht) Voer de naam van je printer in'
+  tip_input_ip: '(Verplicht) Voer het IP-adres van je printer in'
+  tip_input_acescd: '(Verplicht) Voer je toegangscode in'
+  tip_input_sn: '(Verplicht) Voer je serienummer (SN) in'
+  pop_tip_add_dev: 'Bevestig alsjeblieft dat je deze printerverbinding wilt toevoegen aan de Panda Touch.'
+  pop_tip_restart: 'Bevestig alsjeblieft dat je de Panda Touch wilt herstarten.'
+  pop_tip_input_password: 'Voer wachtwoord in'
+  pop_tip_factory: 'Bevestig alsjeblieft dat je de fabrieksinstellingen wilt herstellen. De Panda Touch vergeet de WiFi-instellingen en alle toegevoegde printers. Een herstart wordt uitgevoerd zodra dit is voltooid.'
+  new_tip_get_info: 'Hoe krijg je IP, toegangscode en serienummer (SN).'
+  pop_tip_print_abort: 'Bevestig alsjeblieft of je de huidige en volgende upload- en printtaken wilt afbreken.'
+  tip_not_insert_sdcard: 'MicroSD-kaart niet in de printer geplaatst.'
+  tip_not_insert_usb_flash: 'USB-stick niet geplaatst.'
+  tip_not_select_print: 'Geen printer geselecteerd, selecteer minstens één printer om te beginnen met printen.'
+  tip_remove_refuse: 'Alleen printers die "Verbonden" zijn, kunnen worden verwijderd. Stel deze printer in op "Verbonden" voordat je hem verwijdert.'
+  tip_remove_confirm: 'Bevestig alsjeblieft dat je deze printer wilt verwijderen uit de Panda Touch.'
+  tip_master_must: 'Er moet minstens één printer zijn ingesteld als de "Master".'
+  tip_mainly_query: 'Er kan slechts één printer worden ingesteld als de "Master". Wil je deze printer instellen als de "Master" en de oude "Master"-printer instellen op "Sync"?'
+  tip_printer_max: 'Panda Touch ondersteunt momenteel slechts verbindingen met maximaal "%d" printers. Je kunt een tweede Panda Touch gebruiken om extra printers te bedienen.'
+  tip_pause_all: 'Weet je zeker dat je alle lopende prints wilt pauzeren?'
+  tip_stop_all: 'Als je een print stopt, kun je deze niet hervatten. Weet je zeker dat je alle lopende prints wilt stoppen?'
+  tip_faild_upload: |
+   Uploaden van bestand mislukt, gelieve het volgende te controleren:
+   1. Is de printer juist aangesloten met een SD-kaart en heeft de SD-kaart voldoende capaciteit.
+   2. Zorg dat de USB-drive goed in de Panda Touch zit.
+   3. Verhuis naar een locatie met beter WiFi-signaal.
+   4. Indien in Cloud-mode, controleer en geef het "IP" of de "Toegangscode" opnieuw in.
+  tip_wifi_disconnected: 'De WiFi-verbinding is verbroken. Zorg ervoor dat je je in een gebied bevindt met voldoende signaalsterkte.'
+  tip_wifi_error: 'Verbinding met het huidige WiFi-netwerk mislukt. Controleer de signaalsterkte en het ingevoerde wachtwoord en probeer opnieuw te verbinden.'
+  tip_unload_has_filament: 'Trek het filament op de spoelhouder uit de extruder of controleer of er filament gebroken is in de extruder. Als AMS later gebruikt wordt, verbind dan de PTFE-buis met de koppeling.'
+  tip_unload_has_filament_l: 'Trek het filament op de spoelhouder uit de extruder of controleer of er filament gebroken is in de extruder. Als AMS later gebruikt wordt, verbind dan de PTFE-buis met de koppeling en klik op de knop "Opnieuw proberen".'
+  tip_load_no_filament: 'Voer filament in vanuit de spoelhouder totdat de filamentensensor van de toolkop wordt geactiveerd.'
+  tip_load_no_filament_l: 'Voer filament in vanuit de spoelhouder totdat de filamentensensor van de toolkop wordt geactiveerd en klik op de knop "Opnieuw proberen".'
+  tip_load_filament: 'Observeer de nozzle. Als het filament is geëxtrudeerd, klik op "Klaar"; als dit niet het geval is, duw het filament dan een beetje naar voren en klik daarna op "Opnieuw proberen".'
+  tip_heatbreak_fan: 'De snelheid van de heatbreak-fan is abnormaal.'
+  tip_parsing_gcode: 'Er was een probleem met het parseren van gcode.3mf. Stuur de printopdracht opnieuw.'
+  tip_nozzle_temp_malf: 'Mislukking van de nozzle-temperatuur.'
+  tip_front_cover: 'Het printen werd gepauzeerd omdat de voorkap van de toolkop was gevallen. Bevestig deze opnieuw en klik op het resume-icoon om de printopdracht voort te zetten.'
+  tip_filament_runout: 'Het filament is op. Laad nieuw filament in "Filament" en tik op "Doorgaan" om de printopdracht voort te zetten.'
+  tip_pause_print: 'Weet je zeker dat je de lopende print wilt pauzeren?'
+  tip_stop_print: 'Zodra je een print stopt, kun je deze niet meer hervatten. Weet je zeker dat je de lopende print wilt stoppen?'
+  tip_ams_runout: 'Het AMS-filament is op. Plaats nieuw filament in de AMS en klik op de knop "Opnieuw proberen".'
+  tip_ams_overload: 'De AMS-assistmotorkracht is overbelast. Controleer of de spoel of het filament vastzit. Na het oplossen van het probleem, klik op de knop "Opnieuw proberen".'
+  tip_failed_feed: 'Het is niet gelukt om het filament in de toolkop te voeren. Controleer of het filament of de spoel vastzit. Na het oplossen van het probleem, klik op de knop "Opnieuw proberen".'
+  tip_failed_pull: 'Het is niet gelukt om het filament uit de extruder te trekken. Controleer of de extruder verstopt is of of het filament gebroken is in de extruder. Na het oplossen van het probleem, klik op de knop "Opnieuw proberen".'
+  tip_failed_extrude: 'Het is niet gelukt om het filament te extruderen. Controleer of de extruder verstopt is. Na het oplossen van het probleem, klik op de knop "Opnieuw proberen".'
+  tip_failed_feed_outside: 'Het is niet gelukt om het filament buiten de AMS te voeren. Knip het uiteinde van het filament vlak af en controleer of de spoel vastzit. Na het oplossen van het probleem, klik op de knop "Opnieuw proberen".'
+  tip_select_model: 'Selecteer het model van de printer'
+  tip_ams_busy: 'Kan de filamentinformatie niet lezen; de AMS is bezig. Probeer het later opnieuw.'
+  tip_ams_reading: 'De AMS is bezig met het lezen van de filamentinformatie; probeer het later opnieuw.'
+  tip_ams_tray_empty: 'Deze lade is leeg. Probeer het opnieuw nadat je filament hebt geplaatst.'
+  tip_firmware: 'Scan de code om de firmware-releasegeschiedenis en instructies voor het bijwerken van de firmware te bekijken.'
+#TIPS END 
+#NOTIFY
+  notify_center_t: 'Meldingen Center'
+  notify_cnt_t: 'aantal meldingen:'
+  notify_remind: 'Scan de code om mogelijke oplossingen te bekijken, of klik op de knop "Ga naar Printer" om deze printer in te stellen als de "Master" printer.'
+  notify_remind_go_print: 'Ga naar Printer'
+  notify_unknow_state: 'Panda Touch onbekende status code.'
+  
+  00x0300100000020001: 'De resonantiefrequentie van de %s-as is laag. De timingriem is mogelijk los.' 
+  00x0300100000020002: 'De eerste orde mechanische resonanties van de %s-as wijkt aanzienlijk af van de laatste kalibratie. Voer later de machinekalibratie opnieuw uit.'
+  00x03000F0000010001: 'De versnellingsmeterdata is niet beschikbaar.'
+  00x03000D000001000B: 'De Z-as motor lijkt vast te zitten tijdens het omhoog bewegen.'
+  00x03000D0000010003: 'Het bouwplatform is niet goed geplaatst. Pas het aan.'
+  00x03000D0000010004: 'Het bouwplatform is niet goed geplaatst. Pas het aan.'
+  00x03000D0000010005: 'Het bouwplatform is niet goed geplaatst. Pas het aan.'
+  00x03000D0000010006: 'Het bouwplatform is niet goed geplaatst. Pas het aan.'
+  00x03000D0000010007: 'Het bouwplatform is niet goed geplaatst. Pas het aan.'
+  00x03000D0000010008: 'Het bouwplatform is niet goed geplaatst. Pas het aan.'
+ 
+  00x03000D0000010009: 'Het bouwplatform is niet goed geplaatst. Pas het aan.'
+  00x03000D000001000A: 'Het bouwplatform is niet goed geplaatst. Pas het aan.'
+  00x03000D0000020001: 'Heatbed homing abnormal.'
+  00x03000A0000010005: 'Force sensor %s detected unexpected continuous force. The heatbed may be stuck, or the analog front end may be broken.'
+  00x03000A0000010004: 'External disturbance was detected when testing the force sensor %s sensitivity. The heatbed plate may have touched something outside the heatbed.'
+  00x03000A0000010003: 'The sensititvity of heatbed force sensor %s is too low.'
+  00x03000A0000010002: 'The sensititvity of heatbed force sensor %s is low.'
+  00x03000A0000010001: 'The sensititvity of heatbed force sensor %s is too high.'
+  00x0300040000020001: 'The speed of part cooling fan if too slow or stopped.'
+  00x0300030000020002: 'The speed of hotend fan is slow.'
+ 
+  00x0300030000010001: 'The speed of the hotend fan is too slow or stopped.'
+  00x0300060000010001: 'Motor-%s has an open-circuit. There may be a loose connection, or the motor may have failed.'
+  00x0300060000010002: 'Motor-%s has a short-circuit. It may have failed.'
+  00x0300060000010003: 'The resistance of Motor-%s is abnormal, the motor may have failed.'
+  00x0300010000010007: 'The heatbed temperature is abnormal; the sensor may have an open circuit.'
+  00x0300130000010001: 'The current sensor of Motor-%s is abnormal. This may be caused by a failure of the hardware sampling circuit.'
+  00x0300180000010005: 'The Z axis motor seems got stuck during movement, please check if there is any foreign matter on the Z sliders or Z timing belt wheels.'
+  00x0300190000010001: 'The eddy current sensor on Y-axis is not available, the wire should be broken.'
+  00x0300190000020002: 'The sensitivity of Y-axis eddy current sensor is too low.'
+  00x0300400000020001: 'Data transmission over the serial port is abnormal; the software system may be faulty.'
+  
+  00x0300410000010001: 'The system voltage is unstable; triggering the power failure protection function.'
+  00x0300020000010001: 'The nozzle temperature is abnormal, the heater may be short circuit.'
+  00x0300020000010002: 'The nozzle temperature is abnormal, the heater may be open circuit.'
+  00x0300020000010003: 'The nozzle temperature is abnormal, the heater is over temperature.'
+  00x0300020000010006: 'The nozzle temperature is abnormal, the sensor may be short circuit.'
+  00x0300020000010007: 'The nozzle temperature is abnormal, the sensor may be open circuit.'
+  00x0300120000020001: 'The front cover of the toolhead fell off.'
+  00x0300180000010001: 'The value of extrusion force sensor is low, the nozzle seems to not be installed.'
+  00x0300180000010002: 'The sensitivity of the extrusion force sensor is low, the hotend may not installed correctly.'
+  00x0300180000010003: 'The extrusion force sensor is not available, the link between the MC and TH may be broken or the sensor is broken.'
+
+  00x0300180000010004: 'The data from extrusion force sensor is abnormal, the sensor should be broken.'
+  00x03001A0000020001: 'The nozzle is wrapped in the filament or the build plate is placed incorrectly.'
+  00x03001A0000020002: 'The extrusion force sensor detects that the nozzle is clogged.'
+  00x0C00010000010001: 'Micro Lidar camera is offline.'
+  00x0C00010000020002: 'Micro Lidar camera is malfunctioning.'
+  00x0C00010000010003: 'Micro Lidar Synchronization abnormal.'
+  00x0C00010000010004: 'Micro Lidar Lens dirty.'
+  00x0C00010000010005: 'Micro Lidar OTP parameter abnormal.'
+  00x0C00010000020006: 'Micro Lidar extrinsic parameter abnormal.'
+  00x0C00010000020007: 'Micro Lidar laser parameter drifted.'
+
+  00x0C00010000020008: 'Chamber camera offline.'
+  00x0C00010000010009: 'Chamber camera dirty.'
+  00x0C0001000001000A: 'The Micro Lidar LED may be broken.'
+  00x0C0001000002000B: 'Failed to calibrate Micro Lidar.'
+  00x0C00020000010001: 'Laser not lit.'
+  00x0C00020000020002: 'Laser too thick.'
+  00x0C00020000020003: 'Laser not bright enough.'
+  00x0C00020000020004: 'Nozzle height seems too low.'
+  00x0C00020000010005: 'A new micro lidar is detected.'
+  00x0C00020000020006: 'Nozzle height seems too high.'
+
+  00x0C00030000020001: 'Filament exposure metering failed.'
+  00x0C00030000020002: 'First layer inspection terminated due to abnormal lidar data.'
+  00x0C00030000020004: 'First layer inspection not supported for current print job.'
+  00x0C00030000020005: 'First layer inspection timeout.'
+  00x0C00030000030006: 'Purged filaments piled up.'
+  00x0C00030000030007: 'Possible first layer defects.'
+  00x0C00030000030008: 'Possible spaghetti defects.'
+  00x0C00030000010009: 'First layer inspection module rebooted.'
+  00x0C0003000003000B: 'Inspecting first layer.'
+  00x0C0003000002000C: 'Build plate marker not detected.'
+
+  00x0500010000020001: 'The media pipeline is malfunctioning.'
+  00x0500010000020002: 'USB camera is not connected.'
+  00x0500010000020003: 'USB camera is malfunctioning.'
+  00x0500010000030004: 'Not enough space in SD Card.'
+  00x0500010000030005: 'Error in SD Card.'
+  00x0500010000030006: 'Unformatted SD Card.'
+  00x0500020000020001: 'Failed to connect internet, please check the network connection.'
+  00x0500020000020005: 'Failed to connect internet, please check the network connection.'
+  00x0500020000020002: 'Failed to login device.'
+  00x0500020000020004: 'Unauthorized user.'
+  00x0500020000020006: 'Liveview service is malfunctioning.'
+
+  00x0500030000010001: 'The MC module is malfunctioning. Please restart the device.'
+  00x0500030000010002: 'The toolhead is malfunctioning. Please restart the device.'
+  00x0500030000010003: 'The AMS module is malfunctioning. Please restart the device.'
+  00x050003000001000A: 'System state is abnormal. Please restore factory settings.'
+  00x050003000001000B: 'The screen is malfunctioning.'
+  00x050003000002000C: 'Wireless hardware error: please turn off/on WiFi or restart the device.'
+  00x0500040000010001: 'Failed to download print job. Please check your network connection.'
+  00x0500040000010002: 'Failed to report print state. Please check your network connection.'
+  00x0500040000010003: 'The content of print file is unreadable. Please resend the print job.'
+  00x0500040000010004: 'The print file is unauthorized.'
+  00x0500040000010006: 'Failed to resume previous print.'
+  
+  00x0500040000020007: 'The bed temperature exceeds the filament''s vitrification temperature, which may cause a nozzle clog..'
+  00x0700010000010001: 'The AMS%s assist motor has slipped.The extrusion wheel may be worn down,or the filament may be too thin.'
+  00x0700010000010003: 'The AMS%s assist motor torque control is malfunctioning.The current sensor may be faulty.'
+  00x0700010000010004: 'The AMS%s assist motor speed control is malfunctioning.The speed sensor may be faulty.'
+  00x0700010000020002: 'The AMS%s assist motor is overloaded,The filament may be tangled or stuck.'
+  00x0700020000010001: 'AMS%s filament speed and length error.The filament odometry may be faulty.'
+  00x0700100000010001: 'The AMS%s slot%s motor has slipped.The extrusion wheel may be malfunctioning,or the filament may be too thin.'
+  00x0700100000010003: 'The AMS%s slot%s motor torque control is malfunctioning.The current sensor may be faulty.'
+  00x0700100000020002: 'The AMS%s slot%s motor is overloaded.The filament may be tangled or stuck.'
+  00x0700200000020001: 'AMS%s Slot%s filament has run out.'
+
+  00x1200200000020001: 'AMS%s Slot%s filament has run out.'
+  00x0700200000020002: 'The AMS%s slot%s is empty.'
+  00x0700200000020003: 'The AMS%s slot%s''s filament may be broken in AMS.'
+  00x0700200000020004: 'The AMS%s slot%s''s filament may be broken in the tool head.'
+  00x0700200000020005: 'AMS%s Slot%s filament has run out, and purging the old filament went abnormally; please check whether the filament is stuck in the tool head.'
+  00x0700200000030001: 'AMS%s Slot%s filament has run out. Please wait while old filament is purged.'
+  00x0700200000030002: 'AMS%s Slot%s filament has run out and automatically switched to the slot with the same filament.'
+  00x0700400000020001: 'The filament buffer signal lost,the cable or position sensor may be malfunctioning.'
+  00x0700400000020002: 'The filament buffer position signal error,the position sensor may be malfunctioning.'
+  00x0700400000020003: 'The AMS Hub communication is abnormal,the cable may be not well connected.'
+  00x0700400000020004: 'The filament buffer signal is abnormal,the spring may be stuck or the filament may be tangle.'
+
+  00x0700450000020001: 'The filament cutter sensor is malfunctioning.The sensor may be disconected or damaged.'
+  00x0700450000020002: 'The filament cutter''s cutting distance is too large.The XY motor may lose steps..'
+  00x0700450000020003: 'The filament cutter handle has not released.The handle or blade ay be stuck.'
+  00x0700510000030001: 'The AMS is disabled; please load filament from spool holder.'
+  00x0700500000020001: 'The AMS%s communication is abnormal,please check the connection cable.'
+  00x0700600000020001: 'The AMS%s slot%s is overloaded. The filament may be tangled or the spool may be stuck.'
+  00x1200100000020002: 'The AMS%s Slot%s motor is overloaded. The filament may be tangled or stuck.'
+  00x1200800000020001: 'AMS%s Slot%s filament may be tangled or stuck.'
+  00x07FF200000020001: 'External filament has run out; please load a new filament.'
+  00x07FF200000020002: 'External filament is missing; please load a new filament.'
+  00x07FF200000020004: 'Please pull out the filament on the spool holder from the extruder.'
+
+  00x12FF200000020007: 'Failed to check the filament location in the tool head, please click for more help.'
+  00x1200200000020006: 'Failed to extrude AMS%s Slot%s filament, the extruder may be clogged, or the filament may be too thin, causing the extruder slipping.'
+  00x1200200000030002: 'AMS%s Slot%s filament has run out and automatically switched to the slot with the same filament.'
+#NOTIFY END
+
+#CONTROL
+  ctl_top_t_temp_axis: 'Temperatuur/As'
+  ctl_top_t_filament: 'Filament'
+  ctl_t_part: 'Deel'
+  ctl_t_aux: 'Aux'
+  ctl_t_chamber: 'Kamer'
+  sw_t_on: 'ON'
+  sw_t_off: 'OFF'
+  ctl_t_speed: 'Printsnelheid'
+  ctl_t_speed_silent: 'Stil'
+  ctl_t_speed_standard: 'Standaard'
+  ctl_t_speed_sport: 'Sport'
+  ctl_t_speed_ludicrous: 'Extreem' 
+  ctl_t_extruder: 'Extruder' 
+  ctl_t_temp_high: 'Niet hoger dan %ld℃' 
+  ctl_t_filament_t_tip: 'Tips'
+  ctl_t_filament_tip: 'Voordat u gaat laden, zorg ervoor dat uw filament in de printkop is geduwd.'  
+  ctl_t_to_load: 'Laden'
+  ctl_t_to_unload: 'Uitladen'
+  ctl_t_heat_nozzle_temp: 'Verwarm de nozzle'
+  ctl_t_push_new_filament: 'Duw nieuw filament in de extruder'
+  ctl_t_grab_new_filament: 'Pak nieuw filament'
+  ctl_t_purge_old_filament: 'Verwijder oud filament'
+  ctl_t_cut_filament: 'Snijd filament'
+  ctl_t_back_filament: 'Trek het huidige filament terug'
+  content_empty: 'Leeg'
+  tpu_not_supported: '"%s %s" is niet ondersteund door de AMS.'
+  cf_gf_warning: '"%s %s" filamenten zijn hard en broos. Ze breken gemakkelijk of raken vast in de AMS; gebruik ze alstublieft met voorzichtigheid.'
+  pva_warning: 'Vochtig "%s %s" zal flexibel worden en vast komen te zitten in de AMS; zorg ervoor dat je het droogt voordat je het gebruikt.'
+
+#CONTROL END
+
+#MQTT
+  ctl_t_mqtt_ctl_mode: 'Besturingsmodus'
+  ctl_t_mqtt_statu_master: 'Leider'
+  ctl_t_mqtt_statu_slave: 'Volger'
+  ctl_t_mqtt_status_sync: 'Sync'
+  ctl_t_mqtt_disconected: 'Afgekoppeld'
+  printer_connecting: 'Printer is nu aan het verbinden.'
+  printer_disconnected: 'Printer is afgekoppeld.'
+  printer_connected: 'Printer is succesvol verbonden.'
+  mqtt_login_failed: |
+   Kan niet verbinden met de printer!
+   Het kan zijn dat de "Toegangscode" incorrect is. Klik op "Bewerken" om de "Toegangscode" te controleren en opnieuw in te voeren..
+   Scan de QR-code om verbindingsproblemen op te lossen.
+  mqtt_never_connected: |
+   Kan niet verbinden met de printer!
+   Zorg ervoor dat de printer is ingeschakeld en zich op hetzelfde netwerk (LAN) bevindt als de Panda Touch, of klik op "Bewerken" om de "IP" en "SN" te controleren en opnieuw in te voeren.
+   Scan de QR-code om verbindingsproblemen op te lossen.
+  mqtt_master_changed: |
+   Kan niet verbinden met de printer!
+   Zorg ervoor dat de printer is ingeschakeld en zich op hetzelfde netwerk (LAN) bevindt als de Panda Touch, of klik op "Bewerken" om de "IP" en "SN" te controleren en opnieuw in te voeren.
+   Aangezien dit de "Master" is, wordt een andere printer in de groep tijdelijk als "Master" toegewezen.
+   Als je de printer hebt uitgeschakeld, negeer dan dit bericht.
+   Scan de QR-code om verbindingsproblemen op te lossen.
+  mqtt_master_error: |
+   Kan niet verbinden met de printer!
+   Zorg ervoor dat de printer is ingeschakeld en zich op hetzelfde netwerk (LAN) bevindt als de Panda Touch, of klik op "Bewerken" om de "IP" en "SN" te controleren en opnieuw in te voeren.
+   Aangezien dit de "Master" is en er geen andere verbonden printers beschikbaar zijn in de groep, kunt u de Panda Touch niet gebruiken totdat dit is opgelost.
+   Scan de QR-code om verbindingsproblemen op te lossen.
+  mqtt_slave: |
+   Kan niet verbinden met de printer!
+   Zorg ervoor dat de printer is ingeschakeld en zich op hetzelfde netwerk (LAN) bevindt als de Panda Touch, of klik op "Bewerken" om de "IP" en "SN" te controleren en opnieuw in te voeren.
+   Deze printer is geen "Master", dus deze is niet toegankelijk of kan de "Master" niet volgen als deze zich in een groep bevindt.
+   Als je de printer hebt uitgeschakeld, negeer dan dit bericht.
+   Scan de QR-code om verbindingsproblemen op te lossen.
+  mqtt_not_online: |
+   Kan niet verbinden met de printer!
+   Zorg ervoor dat de printer is ingeschakeld en zich op hetzelfde netwerk (LAN) bevindt als de Panda Touch.
+   Scan de QR-code om verbindingsproblemen op te lossen.
+#MQTT END
+
+#FILE
+  file_t_usb_flash_driver: 'USB Flash Drive'
+  file_t_name: 'Naam'
+  file_t_date: 'Datum'
+  file_t_size: 'Grootte'
+  file_s_transmitting: 'Verzenden'
+  file_s_printers_in_sync: 'Printers in sync:%d/%d'
+  file_s_failed: 'Mislukt'
+  file_s_printing: 'Printen'
+  file_s_waiting: 'Wachten'
+#FILE END
+
+#GUID
+  guid_t_start: 'Start'
+  guid_c_start: 'Activeer het originele Bambu lab scherm.'
+  guid_t_get_ip_access: 'Verkrijg IP en Toegangscode'
+  guid_c_get_ip_access_wlan: 'Selecteer WLAN met het D-pad, duw op OK om te bevestigen.'
+  guid_c_get_ip_access_enter: 'Voer de IP- en toegangscodes in de overeenkomstige invoervakken van de Panda Touch in.'
+  guid_t_get_sn: 'Haal SN-code op'
+  guid_c_get_sn_return: 'Druk op terug om naar instellingen te gaan.'
+  guid_c_get_sn_enter: 'Selecteer apparaat met de D-pad, druk op OK om in te voeren.'
+  guid_c_get_sn_enter_code: 'Dit is de SN-code, voer deze in het overeenkomstige invoervak op de Panda Touch in.'
+  guid_t_completed: |
+   ; )
+   Gefeliciteerd! Je hebt de Panda Touch tutorial voltooid. Probeer de functies uit.
+  guid_c_completed: 'Klik op een leeg gedeelte van het scherm om terug te keren naar het verbindingsscherm. Je kunt printerinformatie toevoegen om de status bij te houden.'
+  sn: 'SN:'
+  guid_unable_find: 'Kan je printerinstellingen niet vinden?'
+  guide_select_lang: 'Selecteer alstublieft de taal van je Panda Touch'
+  guide_ota_not_finished: 'OTA is nog niet voltooid' 
+  guide_ota_remind: |
+   Gebruik een computer op hetzelfde WiFi-netwerk, dit kan een computer of mobiel apparaat zijn met een besturingssysteem zoals iOS of Android. Dit wordt hieronder aangeduid als de "computer".
+    • Voer het IP-adres van de Panda Touch in de browser van de computer in om de webinterface te openen en klik vervolgens op de knop "Update File".  
+    • Klik op de knop "Kies Bestand" en selecteer vervolgens het gedownloade .img-bestand.
+    • De Panda Touch zal automatisch beginnen met updaten.
+  guid_ota_connect_wifi: 'Verbinden met het internet door het WiFi-netwerk aan de rechterkant te selecteren en het wachtwoord in te voeren. Als het netwerk waarmee je wilt verbinden niet verschijnt, klik dan op de Vernieuw-knop.'
+#GUID END
+
+#CLOUD START
+  tip_about_region: 'Selecteer de regio voordat je inlogt, de regio moet dezelfde zijn als die van je account.'
+  tip_del_account: 'Moet het account verwijderd worden? PandaTouch zal de printer die aan dit account is gekoppeld omzetten naar de lokale modus.'
+  tip_input_phone: 'Voer je telefoonnummer in'
+  tip_input_email: 'Voer je e-mailadres in'
+  t_region: 'Regio:'
+  t_account: 'Account:'
+  t_password: 'Code:'
+  t_region_china: 'CHINA'
+  t_region_global: 'GLOBAL'
+  tip_phone_incorrect: 'Voer een geldig telefoonnummer in'
+  tip_email_incorrect: 'Voer een geldig e-mailadres in'
+  tip_account_not_reg: 'Inloggen mislukt, dit account is niet geregistreerd.'
+  tip_password_incorrect: 'Inloggen mislukt, controleer het wachtwoord.'
+  tip_network_error: 'Inloggen mislukt, controleer het netwerk.'
+  tip_login_ok: |
+   Cloud inloggen succesvol!
+   
+   Wilt u alle bestaande printers naar de cloudmodus omzetten? Selecteer alleen "ja" als u geen printers in "LAN-modus" gebruikt. Als u printers in "LAN-modus" gebruikt, voeg dan liever elke printer handmatig toe aan de cloud door de mode-instellingen aan te passen.
+  tip_account_sync_ok: 'Printers zijn succesvol naar de cloudmodus omgezet. U kunt de huidige modusstatus van elke printer bekijken op de multi-apparaatpagina.'
+  tip_account_sync_error: 'Sommige printers konden niet naar de cloudmodus worden omgezet. Controleer uw WiFi- en cloudmodusinstellingen en probeer het opnieuw.'
+  tip_account_sync_zero: 'Er zijn geen cloudprinters in het huidige account. Voeg een printer toe aan dit account en log daarna opnieuw in.'
+  tip_printer_without_cloud: 'Deze printer is nog niet aan dit account gekoppeld. Gebruik BambuLab Studio of Handy om de printer toe te voegen voordat je de cloud inschakelt.'
+  tip_printer_login_account: 'Log eerst in op een account.'
+  tip_account_error: 'Je account ondervindt problemen. Controleer of er wijzigingen zijn aangebracht in je accountnaam. Verifieer ook of de regio van je account overeenkomt met je huidige locatie.'
+  tip_account_network_error: 'Je netwerkverbinding ondervindt problemen. Controleer of het netwerkwachtwoord is veranderd en probeer opnieuw verbinding te maken om de cloudverbinding van de printer te herstellen.'
+  t_login_bambu: 'Inloggen bij BambuLab-account.'
+  tip_convert_to_cloud: 'Printers worden geconverteerd naar de cloudmodus. Even geduld alstublieft.'
+  t_enable_could: 'Cloud inschakelen'
+  tip_wifi_not_connected: 'De Wi-Fi-verbinding is verbroken, verbind alstublieft eerst met Wi-Fi.'
+  tip_printer_work_in_cloud: 'De printer werkt in cloud-modus.'
+  tip_printer_work_in_local: 'De printer werkt in de LAN-modus.'
+  tip_ftp_ip_invalid: |
+   Zorg ervoor dat de printer zich op hetzelfde LAN bevindt als de Panda Touch.
+   Controleer en bewerk de "IP" of "Toegangscode" opnieuw.
+  tip_ftp_not_find: 'Bestand niet gevonden.'
+  tip_group_printer_cloud_mode: 'Printer %d: %s werkt in cloud-modus.' 
+  tip_group_printer_local_mode: 'Printer %d: %s werkt in LAN-modus.' 
+  tip_group_work_in_cloud: 'De printergroep werkt in cloud-modus.'
+  tip_group_work_in_local: 'De printergroep werkt in LAN-modus.' 
+#CLOUD END
+
+#NEW ADD
+  tip_printer_group_max: 'Panda Touch ondersteunt momenteel slechts %d printergroep.'
+  tip_one_master_at_least: 'Je moet minstens één masterprinter in een groep behouden.'
+  tip_one_select_at_least: |
+   Houd minimaal één masterprinter in een groep.
+   Als je de groep wilt verwijderen, kun je de terugknop gebruiken en deze verwijderen met de verwijderknop.
+  tip_remove_group_confirm: 'Bevestig dat je deze printergroep van de Panda Touch wilt verwijderen.'
+  tip_group_same_name: 'Er bestaat al een groep met dezelfde naam, hernoem deze alstublieft.'
+  tip_printer_in_group: 'De printer is al geselecteerd in de groep, verwijder deze eerst uit de groep.'
+  tip_reprint_group_printer: 'Dit zal alleen het bestand op deze printer opnieuw afdrukken. Als je op alle printers in de groep wilt afdrukken, wacht dan tot alle printers klaar zijn en gebruik het normale proces om het afdrukken te starten.'
+  tip_reprint_printer: 'Wil je het bestand opnieuw afdrukken op deze printer?'
+  tip_waiting_print_finished: 'Stop de huidige afdruktaken voordat je een nieuwe start.'
+  tip_group_connected: 'De printergroep is succesvol verbonden.'
+  tip_group_printer_disconnected: 'De printer %d:%s is losgekoppeld.'
+  tip_group_printer_connecting: 'De printer %d:%s is aan het verbinden.'
+  tip_group_printer_printing: 'De printer %d:%s is aan het afdrukken.'
+  tip_group_printer_temp_too_high: 'De printer %d:%s heeft een temperatuur van %d ℃.'
+  tip_group_printer_file_config: 'Wil je het %s bestand afdrukken? Selecteer de afdrukfunctie die je nodig hebt om in te schakelen.'
+  tip_group_power_off: 'Wil je de printers in deze groep uitschakelen?'
+  tip_group_reset_power_usage: 'Wil je het stroomverbruik van de PWR-printers binnen de groep wissen?'
+  tip_group_power_off_not_online: 'Een printer in de groep is losgekoppeld. Bevestig of je door wilt gaan met het uitschakelen van de stroom.'
+  tip_group_printing_not_idle: 'Er wordt op sommige printers in de groep afgedrukt. Het uitschakelen van de printer kan een blokkade veroorzaken. Wacht totdat de hete eindkop is afgekoeld voordat je de printer uitschakelt. Wil je doorgaan?'
+  tip_group_temp_too_high_confirm: 'Er zijn printers in de groep met een hete eindkoptemperatuur van meer dan 50 graden. Het uitschakelen van de printer kan een blokkade veroorzaken. Wacht totdat de hete eindkop is afgekoeld voordat je de printer uitschakelt. Wil je doorgaan?'
+  t_is_printing: 'Afdrukken'
+  t_is_idle: 'Inactief'
+  tip_enter_group_name: 'Voer een groepsnaam in:'
+  tip_move_confirm: 'De printer/printergroep is momenteel aan het afdrukken en kan niet worden verplaatst.'
+  tip_always_sleep: 'Deze bewerking kan schade aan het scherm veroorzaken. Wil je doorgaan?'
+  tip_bind_power: | 
+   Houd de Panda PWR-knop ingedrukt totdat het blauwe licht begint te knipperen,
+   plaats vervolgens de Panda Touch tegen de Panda PWR-behuizing om te verbinden.
+  tip_remove_keep_one: 'Houd minstens één printer vast.'
+  tip_remove_printer_with_power: 'Deze printer is verbonden met Panda PWR. Wil je doorgaan met het verwijderen?'
+  tip_about_power: |
+   Panda PWR
+   Automatische uitschakeling, realtime stroommonitoring, stroomtracking, dubbele USB-A-interfaceontwerpen. Scan de QR-code voor meer informatie.
+  tip_power_off_not_online_confirm: 'De printer is losgekoppeld, bevestig of je de stroom van de printer wilt uitschakelen.'
+  tip_power_off_temp_too_high_confirm: 'De temperatuur van de hete eindkop is >50C. Het uitschakelen van de printer kan een blokkade veroorzaken. Wacht totdat de hete eindkop is afgekoeld voordat je de stroom van de printer uitschakelt. Wil je doorgaan?'
+  tip_power_off_confirm: 'Bevestig of je de stroom van de printer wilt uitschakelen.'
+  tip_auto_power_off_confirm: 'Je printer wordt automatisch uitgeschakeld zodra de afdruk is voltooid en de hete eindkop onder de 50C is afgekoeld.'
+  t_auto_power_off: 'Auto Uitschakelen:'
+  t_min: 'Min'
+  t_countdown: 'Aftellen:'
+  t_power: 'Stroom'
+  tip_know_power: 'Wat is de Panda PWR'
+  tip_add_power: 'Voeg Panda PWR toe'
+  t_voltage: 'Spanning:'
+  t_current: 'Stroom:'
+  t_power_2: 'Stroom:'
+  t_power_usage: 'Energieverbruik:'
+  t_printer: 'Printer-Leider:'
+  t_power_wifi: 'Wifi SSID:'
+  t_power_usb_follow: 'USB 1 Volg Printer Licht:'
+  t_usb_config_off: 'Uit'
+  t_usb_config_on: 'Aan'
+  t_must_high: 'De ingevoerde waarde moet groter zijn dan %ld'
+  t_must_less: 'De ingevoerde waarde moet kleiner zijn dan %ld'
+  t_power_printer_no: 'Nr.'
+  tip_confirm_bind_power: 'Accepteer je de binding van Panda PWR?'
+  tip_confirm_unbind_power: 'Wil je de binding met Panda PWR opheffen?'
+  t_reset_power_usage: | 
+   RST
+   Usage
+  t_reset_power_usage_print: 'RST Gebruik'
+  tip_confirm_reset_power_usage: 'Wil je het stroomverbruik resetten?'
+  t_auto_off: 'Auto Uitschakelen'
+  t_power_off_all: 'Wil je de PRINTERS die aan PWR zijn gebonden in de groep uitschakelen?'
+  t_pwr_has_been_bind: 'Deze PWR is al gebonden aan Printer %s, unbind deze voordat je verdergaat.'
+  tip_pwr_max: 'Panda Touch ondersteunt momenteel maximaal %d Panda PWR.'
+  t_power_off_after_printing: 'Auto Uitschakelen'
+  tip_change_reboot: 'Voor een betere snelheidservaring is een herstart nodig om van kracht te worden. Wil je doorgaan?'
+  t_multi_print_heat_delay: 'Vertraging bij meerdere afdrukken opwarmen'
+  t_file_t_history: 'Afdrukgeschiedenis'
+  t_history_cost_time: 'Tijd gekost'
+  t_history_weight: 'Gewicht'
+  t_history_only_cloud: 'Alleen ondersteund voor Cloud-modus'
+  t_history_not_find: 'Niet gevonden'
+  t_default_directory: 'Printer-Standaard-Map'
+  t_reboot_take_effect: 'Een herstart is nodig om van kracht te worden. Wil je doorgaan?'
+  t_send_code: 'Code Verzenden'
+  tip_send_code: 'Voer de code in'
+  tip_error_code_length: 'De lengte van de code moet 6 tekens zijn'
+  tip_error_code: 'Code bestaat niet of is verlopen; vraag een nieuwe verificatiecode aan.'
+  tip_error_send_code: 'Verzenden van code mislukt, controleer de internetverbinding.'
+  tip_loading_thumbnail: 'Laad gegevens van de printer. Even geduld.'
+  t_sd_enhanced_load_thumbnails: 'Verbeterde miniatuurweergave'
+  tip_enhanced_load_effect: 'Het starten van afdrukken vanaf de USB-stick of het klikken op het sd-kaartpaneel zal een lange vertraging veroorzaken en het zal van kracht worden na herstarten. Wil je doorgaan?'
+#NEW ADD END
